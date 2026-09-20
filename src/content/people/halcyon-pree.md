@@ -5,6 +5,9 @@ description: >-
 role: Convenor and lecturer, aerodynamics
 affiliation: Slop University School of Invented Disciplines
 email: halcyon.pree@slop.university
+photo: ./halcyon-pree.jpg
+photoAlt: >-
+  Dr Halcyon Pree, arms crossed, standing in front of an aerodynamics diagram showing lift-coefficient curves.
 contact: >-
   Office hours Tuesdays after the lecture, or catch her at the strip on a Thursday.
 ---

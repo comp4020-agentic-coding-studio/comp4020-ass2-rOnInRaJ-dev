@@ -24,7 +24,7 @@ This week works on `R-04`, `R-06`, `R-07`.
 
 Wire your power distribution: pack to regulator to flight controller to all five servos — 90 g total. Build the bench rig: pack through the regulator to the flight controller, flight controller wired to all five servos, current meter in series with the battery. Measure the static resistance of the servo bus when all five move together; you will need it for the lab prediction. Lay the rig out flat on the bench, in the order current actually flows, so a bad connection is something you can see and point at rather than something buried under a wing skin. Label every lead before you power anything: pack positive, regulator input, regulator output, flight controller rail, and five servo feeds, each in its own colour. A rig you cannot read at a glance is a rig you will mis-wire once and not notice until the log looks wrong.
 
-:::figure{kind="electronics"}
+:::figure{kind="electronics" img="sessions/week-05.jpg"}
 A top-down schematic of the bench rig: pack on the left feeding a regulator, the regulator's output feeding a flight controller, and the flight controller fanning out to five labelled servo blocks on the right, with a current meter drawn in series on the wire between pack and regulator and a voltage probe drawn across the regulator's output rail.
 :::
 

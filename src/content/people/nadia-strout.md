@@ -5,6 +5,9 @@ description: >-
 role: Laboratory technician, workshop and test
 affiliation: Slop University School of Invented Disciplines
 email: nadia.strout@slop.university
+photo: ./nadia-strout.jpg
+photoAlt: >-
+  Nadia Strout in a grey lab coat with orange trim and a lanyard, in front of a plain workshop background.
 contact: >-
   The workshop, during any scheduled studio. Do not email about a machine you are standing next to.
 ---

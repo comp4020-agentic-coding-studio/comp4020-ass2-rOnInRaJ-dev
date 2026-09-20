@@ -21,11 +21,11 @@ The matrix itself is not exotic — a spreadsheet with four columns, one row per
 
 This course closes six requirements on the bench: `R-01` — all-up mass — goes on a scale; `R-04` — static thrust at least 0.70 of weight — goes on a thrust stand; `R-10` — spar limit load — goes on a sandbag rig. `R-11` — centre of gravity — goes on two knife edges; `R-12` — radio range and failsafe — goes on a walked range check and a deliberate transmitter-off test; `R-13` — control repeatability — goes on a protractor and fifty cycles. The other eight requirements need the air.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-10-a.jpg"}
 A verification matrix schematic: a four-column table — requirement ID, method, predicted value, measured value — with six example rows, one for each of `R-01`, `R-04`, `R-10`, `R-11`, `R-12` and `R-13`, each row's method column naming its bench tool: scale, thrust stand, sandbag rig, knife edges, range check, protractor rig.
 :::
 
-:::figure{kind="electronics"}
+:::figure{kind="electronics" img="lectures/week-10-b.jpg"}
 A bench-rig lineup: a thrust stand with a motor and propeller mounted ahead of a load cell reading peak thrust, a cantilevered sandbag rig with a dial gauge at the tip, two knife edges with an aircraft balanced across them, and a protractor rig clamped to a control surface with a cycle counter — four stations side by side, each with a small predicted-value card taped beside it, filled in before the test ran.
 :::
 

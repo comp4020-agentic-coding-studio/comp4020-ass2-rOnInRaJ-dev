@@ -19,11 +19,11 @@ Week 5 closed the power system and fixed your pack's mass at 1560 g against the 
 
 Sizing a tail is arithmetic, not intuition. A tail volume coefficient is a ratio: tail area times tail arm, divided by wing area times wing chord. Move the tail forward on the same fuselage and the arm shrinks, so the area has to grow to hold the same coefficient — a shorter fuselage does not make a smaller tail cheaper, it makes it bigger. This is where the mass argument bites: every square centimetre you add to a tail to compensate for a short arm is mass you did not budget for in week 4, mass that then moves your all-up figure away from 1560 g, which moves your wing loading away from 40.6 g/dm², which is why `R-02` is checked again this week and not signed off once and forgotten. A tail sized in isolation, on a spreadsheet with no fuselage length in it, is a tail sized wrong.
 
-:::figure{kind="aero"}
+:::figure{kind="aero" img="lectures/week-06-a.jpg"}
 A side-view profile of the aircraft showing the wing's mean aerodynamic chord as a shaded band, a shaded vertical zone on the fuselage marking the twenty-eight to thirty-four per cent range, an arrow from the wing's quarter-chord point back to the tail's quarter-chord point labelled "tail arm," and a small marker showing the actual centre of gravity position for comparison against the shaded band.
 :::
 
-:::figure{kind="cad"}
+:::figure{kind="cad" img="lectures/week-06-b.jpg"}
 A CAD viewport mock-up: a three-dimensional wireframe model of the airframe with a materials-and-density panel open beside it, one part (the tail) highlighted with its properties panel showing a computed mass instead of a typed-in estimate, and a small arrow marking that value feeding straight into the ledger.
 :::
 

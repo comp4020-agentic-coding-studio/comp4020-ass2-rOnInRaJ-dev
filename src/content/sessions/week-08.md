@@ -29,7 +29,7 @@ One page means one page: if a handover needs three paragraphs to explain, the in
 
 The second two hours are in the lab. Your team writes a bench method for `R-13`: how you will test that a control surface deflection repeats to within one degree after fifty cycles. A protractor and a cycle counter are your tools. Here is where the failure story matters: a reversed aileron servo can bench-test perfectly with the wing off, then fly backwards on the take-off roll because the bench did not run it in the flying configuration. Test the servo-to-surface interface in the same configuration the aircraft actually flies in, not a convenient one. If your servo bolts to a wing that moves, rig the wing.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="sessions/week-08.jpg"}
 Two side-by-side sketches of the same aileron servo and control horn: the left labelled "bench-tested" showing the servo mounted on a flat jig with the wing skin absent and the linkage running freely in open air; the right labelled "flying configuration" showing the same servo mounted inside the assembled wing with the control horn, hinge line and skin all present, and a callout on the right sketch reading "test here, not there."
 :::
 

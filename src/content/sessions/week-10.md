@@ -23,7 +23,7 @@ This week works on `R-01`, `R-04`, `R-10`, `R-11`, `R-12`, `R-13`.
 
 **Workshop hours:** The failsafe behaviour is a parameter your team sets deliberately on the bench, with the propeller off, before it is ever tested in the air. Your transmitter has two options: hold the last stick position it received, or circle and descend. `R-12` requires the second. Setting it means opening the radio's own menu, not the flight controller's — the timeout and the fallback behaviour live on the transmitter side, and a team that configures it only in the flight controller's software has configured half a system. Switch the transmitter off, watch what the control surfaces do without a signal, and switch it back on. If the ailerons freeze exactly where they were at the moment of loss, the failsafe is set to hold last stick position — the option `R-12` does not allow. Reset it, run the bench test again, and confirm the surfaces move toward the circle-and-descend configuration instead. A team that leaves the failsafe at its default discovers what it does at altitude, in front of the instructor, rather than beforehand — and that discovery is vastly more expensive than testing it here.
 
-:::figure{kind="electronics"}
+:::figure{kind="electronics" img="sessions/week-10.jpg"}
 A failsafe bench test schematic: the transmitter and receiver shown with the radio link between them, a propeller-off aircraft on the bench, and two labelled outcomes at the point of signal loss — control surfaces frozen in place (not allowed) versus the flight controller routed into a pre-set circle-and-descend command (required by `R-12`).
 :::
 

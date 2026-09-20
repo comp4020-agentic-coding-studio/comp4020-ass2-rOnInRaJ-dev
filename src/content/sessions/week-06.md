@@ -25,7 +25,7 @@ In the workshop hours, each team computes a tail volume coefficient from its own
 
 In the lab hours, the CAD model returns a mass. You check that mass against the ledger's tail-structure line — 85 g — and record the gap. A gap either way means something changed in your design: heavier, and your material or section choice cost more than the budget assumed; lighter, and either you found a genuine saving or you under-modelled something, and the difference is worth chasing down before you trust the number. Then you predict where your own centre of gravity will sit, working from your wing's mass (fixed in week 4), your pack's mass (fixed in week 5), and the tail mass the model just returned.
 
-:::figure{kind="cad"}
+:::figure{kind="cad" img="sessions/week-06.jpg"}
 An exploded orthographic view of the CAD assembly at this stage: wing, fuselage and tail as separate labelled bodies pulled apart along a vertical axis, with a small mass callout beside each body and a highlighted outline around the tail body showing it is the part entered this week.
 :::
 

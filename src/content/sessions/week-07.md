@@ -27,7 +27,7 @@ Before you cut the spar, run the check every team runs: which load case did you 
 
 **Lab hours.** From your own beam calculation and the section you chose, predict the tip deflection at the 3.5 g limit load. Write the prediction in the ledger before the field slot — including the assumptions behind it: the span you modelled, the material stiffness you used, and whether you treated the spar as a simple cantilever or accounted for the taper in your own wing. An undocumented prediction is hard to learn from even when it turns out to be right.
 
-:::figure{kind="structures"}
+:::figure{kind="structures" img="sessions/week-07.jpg"}
 A side view of a tapered wing spar as a cantilever beam fixed at the root, with a downward load arrow at the tip, a dashed curve showing the beam deflecting under that load, and a labelled dimension line from the undeflected tip to the deflected tip marked "predicted tip deflection."
 :::
 

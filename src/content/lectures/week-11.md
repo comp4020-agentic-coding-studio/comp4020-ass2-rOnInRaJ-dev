@@ -21,11 +21,11 @@ A test card for one flight names exactly one thing: the manoeuvre, the one numbe
 
 Your log needs to show the numbers that answer the question. The course design point predicts a stall speed of 7.7 m/s against the `R-03` cap of 8.5 m/s, a cruise power of 60 W against the `R-05` cap of 70 W, and an endurance of around twenty-six minutes against the `R-07` floor of twenty minutes. These are design-point numbers, and your own airframe will differ — possibly a lot. Minimum logging is pack voltage and current, airspeed, and time. Log rate matters as much as what you log, because an under-sampled trace misses the transient that answers your one question — you need to see the current spike when the motor starts, and the step where the servo takes the elevator in a stall.
 
-:::figure{kind="aero"}
+:::figure{kind="aero" img="lectures/week-11-a.jpg"}
 A logged flight trace: airspeed, pack current and elevator deflection plotted against time on three stacked axes, with a callout marking the stall departure point where the airspeed curve flattens and the elevator trace shows the recovery input, and a second callout on the current trace marking the motor start-up spike.
 :::
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-11-b.jpg"}
 A test card clipped to a kneeboard: one manoeuvre named at the top, one predicted number written into a boxed field, and a short list of required conditions — wind under a stated limit, full charge, clean configuration — each with a tick box, all filled in above a propeller icon at the bottom that is greyed out and not yet turning.
 :::
 

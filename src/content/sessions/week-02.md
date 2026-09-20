@@ -25,7 +25,7 @@ In your workshop hours, you turn the number from the field into one sentence. Yo
 
 In lab hours, you open the ledger file — a spreadsheet with one row per part and a column for the method, not just the number. Every line is an estimate with a method: the wing structure mass is estimated from a published glider design of similar span, scaled to your own wing area, and the scaling method goes in the method column — not a source document, a method, because a method is something the next person on your team can redo and a citation to a report nobody can find is something they can't. Every estimate sits on paper before it sits on a scale. Ask the lab technician to weigh a shelf part — a servo, a battery connector, a sheet of carbon — and enter that weight as a sourced reference figure, so at least one row in your ledger is already a measurement on day one rather than an estimate waiting to be checked. The 250 g payload is already in the ledger as a constraint from `R-08`: that is the only payload mass your configuration allows, and it is not yours to renegotiate no matter how the wing-sizing numbers come out later. You do not pick the mass budget's line items; you estimate them, source what you can this week, and live with what they add to for the rest of the course.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="sessions/week-02.jpg"}
 A two-column diagram: on the left, a stopwatch and a circuit sketch with three lap times and their average; on the right, the finished mission sentence with an arrow from the averaged time to the distance figure inside it, and a second arrow from a payload icon (250 g) to the payload figure inside the same sentence.
 :::
 

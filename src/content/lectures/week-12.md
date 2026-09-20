@@ -23,11 +23,11 @@ Which requirement would have caught it? None of the fourteen, cleanly. `R-14` cl
 
 The fly-off runs a full day at Mount Sludge. Every team flies the mission it wrote in week 3, with the payload fitted, closing `R-08`. Every team also flies its signature capability — the thing this aircraft does that the others do not. Your team chose that capability in week 4 and designed the aircraft around it. It is not assigned; it is yours. Past examples have included a mass-fraction contest entry, slowest stable flight, maximum glide range from a fixed release height, and a precision drop. The scoring runs one aircraft at a time, measured against the prediction you logged before the propeller turned. The flight line runs one aircraft at a time all day, with every other team's aircraft grounded and packs disconnected while a scoring flight is in the air. A team gets one scored attempt at the mission and one at its signature capability; a card taped to the transmitter carries both predictions, written down before the first flight of the day, checked against the log afterwards the same way every flight this semester has been checked.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-12-a.jpg"}
 A fly-off day schedule diagram: a single flight-line timeline showing each team's slot in sequence — mission flight, signature capability flight, pack discharge — with a callout noting only one aircraft is live on the line at a time and every other team's pack disconnected during that slot.
 :::
 
-:::figure{kind="electronics"}
+:::figure{kind="electronics" img="lectures/week-12-b.jpg"}
 Two battery packs side by side on a bench: the left pack flat and regular, labelled "checked in, week 11, full charge"; the right pack visibly swollen and domed, labelled "retrieved, week 12, fourteen days in a hot car," with a caution icon over the right pack and an arrow from it toward a lockable disposal bin in the corner of the frame.
 :::
 

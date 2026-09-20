@@ -25,7 +25,7 @@ The review pack you present in the first studio is three documents: your numbere
 
 The lab hours make the ledger real rather than merely plausible. You and the lab technician weigh samples of balsa, carbon tube and composite fabric on the same scale that will weigh your finished aircraft in later weeks. Sample stock is never the exact piece that ends up in your airframe — it is the same grade, from the same supplier, off the same shelf the technician restocks weekly — so the sourced figure is a good figure, not a guaranteed one, and the ledger's method column says which is true of every line. A line that read "balsa spar, estimated" becomes a length of balsa on that scale, with the actual reading written next to it and the estimate struck through rather than deleted, so the review panel can see the gap between what you guessed and what the material actually weighs. Structures goes from estimated to sourced, line by line, for as much of the mass budget as you have physical stock for this early. The ledger baseline is locked at version one, dated at the end of week 3. After this, a change to mass is not a discovery — it is a decision, and whoever makes it names the reason in the ledger's own history, the same way the review panel will ask for it later.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="sessions/week-03.jpg"}
 A three-document flowchart: a requirement-set table, a ledger spreadsheet stamped "v1" with a date, and a trade-study scorecard, each feeding into a single box labelled "review pack", with a side note on the scorecard showing the weights column filled in before the scores column.
 :::
 

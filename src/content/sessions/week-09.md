@@ -25,7 +25,7 @@ This week works on `R-01`, `R-09`, `R-10`.
 
 **Lab hours:** Lab hours are the CDR meeting itself. Every ledger line gets presented tagged estimated, sourced, or measured, and nothing may still say estimated for a part that is sitting on the bench. This week's lecture covers the shape of a change-control record — reason, re-check, record — and any line that has moved since the week 5 preliminary design review baseline gets one opened against it here, in the meeting, not written up afterwards from memory. This is where the mass-creep audit happens. The course design point allocates 310 g to the wing structure, 240 g to the fuselage structure, 85 g to the tail structure, 185 g to propulsion, 230 g to the battery, 120 g to avionics, 90 g to servos, 250 g to payload and 50 g to consumables — an allocated 1560 g against the 1800 g cap, a 240 g reserve. None of those lines needs to be wrong by much. A wing structure a little heavier than its own estimate, a fuselage a little heavier than its own estimate, a battery swapped for one with a slightly heavier connector — five per cent over on each line, and no single number is worth raising a hand about. Added together against a 240 g reserve, they are worth raising a hand about. The review checks the sum, not each line in isolation, which is the only way this kind of creep gets caught before it costs a requirement.
 
-:::figure{kind="structures"}
+:::figure{kind="structures" img="sessions/week-09.jpg"}
 A mass-creep chart: the same nine subsystem lines shown as two stacked bars side by side, one dated week 5 PDR and one dated week 9 CDR, each bar segment nudged very slightly taller in the second bar, and the shrinking gap between the CDR total and the 1800 g cap marked as the reserve.
 :::
 

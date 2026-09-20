@@ -23,7 +23,7 @@ Your team is four people, fixed from week 2, with a role assigned to each: chief
 
 The studio has 4 workshop-and-lab hours this week, and none of them go to building anything. You spend them getting your repository issued — a blank one, with nothing in it yet but the folders the course expects — meeting the lab technician who weighs every material sample your team brings in for the rest of the semester, and learning where the workshop's equipment lives: the scale, the bench vices, the covering iron, the box of servo leads nobody has claimed yet. You leave the session with a repository, a nominated but not locked role each, and a working idea of who else is on your team, because for some of you this is the first time you have spoken to them. You will visit the field to fly the objective below. Read the Field days page to book your own slot and understand the go/no-go and weather fallback rules.
 
-:::figure{kind="drone"}
+:::figure{kind="drone" img="sessions/week-01.jpg"}
 A side-view diagram of the buddy-box control loop: the instructor's transmitter and the student's transmitter both wired into one receiver on the aircraft, a dashed arrow tracing stick input to control surface to flight path to the pilot's eye and back to the stick, and a small clock icon marking the lag in that return arrow.
 :::
 

@@ -25,7 +25,7 @@ Before the field slot, the team writes down the one question this flight will an
 
 The aircraft goes on the bench for a final centre-of-gravity check in its actual flight-ready configuration. This is the weight and balance with the battery fitted, the servo pack attached, the antenna run, everything that flies. The bench fixture is two dowels set level at the datum; the aircraft balances across them by its wingtips, with the fuselage hanging free between. Everything added since the last CG check — a heavier battery, a repositioned receiver, a mount bolted on for this flight — moves the balance point, and the only way to catch that is to check it dressed exactly as it will fly, not stripped down for convenience. A CG check signed off weeks ago without the real flight setup can still be wrong, and it shows up on landing — a nose-in prop strike because the aircraft lands heavier than the bench check assumed. Check the CG again, where it lives.
 
-:::figure{kind="aero"}
+:::figure{kind="aero" img="sessions/week-11.jpg"}
 A bench CG check: the aircraft resting across two dowel supports at the balance datum, wingtip to wingtip, with the fuselage hanging level between them, and a callout showing the mean aerodynamic chord marked along the wing root with the acceptable centre-of-gravity band shaded between two lines on it.
 :::
 

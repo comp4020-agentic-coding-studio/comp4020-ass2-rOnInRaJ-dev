@@ -85,6 +85,17 @@ code.req-chip {
   background-size: contain;
 }
 
+/* A real `img` (from an `img="..."` figure attribute) replaces the empty,
+   CSS-painted div above — wider aspect, actual photo/diagram content, so it
+   gets its own sizing instead of the stock icon's fixed 9rem box. */
+img.figure-slot__art {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: calc(var(--at-border-radius, 0.5rem) - 0.2rem);
+}
+
 .figure-slot[data-kind="cad"] {
   color: var(--at-accent);
 }

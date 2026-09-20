@@ -5,6 +5,9 @@ description: >-
 role: Lecturer, avionics and electrical
 affiliation: Slop University School of Invented Disciplines
 email: bez.toomath@slop.university
+photo: ./bez-toomath.jpg
+photoAlt: >-
+  Bez Toomath holding a partially assembled circuit board, with a hand-drawn circuit sketch on the wall behind him.
 contact: >-
   Email, or find him in the avionics bay most afternoons with something half-soldered.
 ---

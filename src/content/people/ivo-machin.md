@@ -4,6 +4,9 @@ description: >-
   Volunteer safety officer at Mount Sludge Model Aircraft Club. Runs the go/no-go call on every field day, keeps the pack register, and stops flying when the wind or the traffic says stop.
 role: Safety officer, Mount Sludge Model Aircraft Club
 affiliation: Mount Sludge Model Aircraft Club
+photo: ./ivo-machin.jpg
+photoAlt: >-
+  Ivo Machin wearing a vest with a "Safety Officer" badge, standing in an industrial-looking yard.
 contact: >-
   On duty at every booked field slot. Questions about the field go to him, not to course staff.
 ---

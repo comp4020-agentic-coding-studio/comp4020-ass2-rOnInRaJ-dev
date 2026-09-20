@@ -28,11 +28,11 @@ Every subsystem on this aircraft is correct on its own bench. The pack meets its
 - failure modes: how each interface fails, and what it takes down with it
 - manufacture begins — and what you are no longer allowed to change
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-08-a.jpg"}
 A simple block diagram of four subsystem boxes — power, propulsion, avionics, structures — connected by labelled arrows, each arrow carrying a small tag naming what crosses it: grams, watts, volts, or a data line, with one arrow highlighted and annotated "interface: written down here, owned by neither box."
 :::
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-08-b.jpg"}
 A before-and-after diagram of the same servo and control horn: the left side, labelled "bench-tested," shows the servo spinning freely in an open jig with no control horn attached; the right side, labelled "as flown," shows the same servo bolted to a control horn that was never present during the bench test, with a small flag on the right side reading "first time these two parts have ever met."
 :::
 

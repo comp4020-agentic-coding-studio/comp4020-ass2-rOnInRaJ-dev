@@ -4,6 +4,9 @@ description: >-
   Volunteer chief flying instructor at Mount Sludge Model Aircraft Club, which hosts this course's field days. Teaches the week 1 buddy-box lessons and signs students onto the flight line for the rest of semester.
 role: Chief flying instructor, Mount Sludge Model Aircraft Club
 affiliation: Mount Sludge Model Aircraft Club
+photo: ./glenys-arkwright.jpg
+photoAlt: >-
+  Glenys Arkwright, an older woman with grey hair, wearing a jacket with a small wings badge, outdoors.
 contact: >-
   Through the club, via the field-day booking page. She is not university staff and does not take course email.
 ---

@@ -19,11 +19,11 @@ A team had already chosen a fixed-wing aircraft. When they ran their configurati
 
 Functional decomposition is the other half of this week, and it comes before the trade study, not after. Your mission is a list of things the aircraft must do: fly a distance, carry the payload, land safely, transmit sensor data if your own mission needs it. Each of those functions belongs to exactly one of the five subsystems. Aero handles flight physics. Structures handles loads and mass. Propulsion & Power handles engine, battery and fuel. Avionics & Control handles sensors, decisions and commands to the servos. Operations handles the field, the pilots and the rules they follow. Every function goes to exactly one owner, so every subsystem knows what it answers for and nothing falls into the gap between two subsystems who each assumed the other one had it — a transmit-sensor-data function that nobody claims is not a small problem later; it is the reason two subsystems each show up to the review holding half a working radio path and no one holding the other half. Once you have allocated the mission into those five subsystems, the trade study scores each of the three configurations — fixed-wing against quad against VTOL — against the same set of weighted criteria. The wing area, the power-to-weight ratio, the time aloft, the disc loading: all of them matter, and all of them matter differently depending on what your own mission actually asks the aircraft to do. The three configurations in the outline are exactly the kind of decision this catches, because a fixed-wing chosen because someone already had one in the shed looks, on paper, exactly like a fixed-wing chosen because the trade study said so. The one number that is the same for all three configurations, regardless of which one wins, is the 1800 g cap — that is the constraint you cannot trade away no matter how the weights fall.
 
-:::figure{kind="drone"}
+:::figure{kind="drone" img="lectures/week-03-a.jpg"}
 Three side-by-side silhouettes — a fixed-wing, a quadcopter and a tilt-rotor VTOL — each with the same four criteria listed beside it (endurance, payload volume, disc loading, power-to-weight) and an identical weight percentage next to each criterion across all three silhouettes, with a score box under each criterion that differs between them.
 :::
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-03-b.jpg"}
 A functional decomposition diagram: five subsystem boxes — Aero, Structures, Propulsion & Power, Avionics & Control, Operations — each with a short list of functions posted to it from a floating mission list above, one function ("transmit sensor data") shown drifting unclaimed between two boxes with a red circle drawn around the gap between them.
 :::
 

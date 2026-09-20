@@ -27,7 +27,7 @@ Your team's signature capability gets a final rehearsal here, in the studio, not
 
 After the field slot, every pack gets discharged on the bench, using the same logging rig and the same cut-off voltage you used for the week 5 bench discharge. The log shows current and voltage from full charge to the cut-off at the load you specified. Each pack goes on the rig one at a time, connected the same way it was connected for its week 5 bench discharge, and the log runs unattended while the next pack is prepped — nobody rushes this by discharging two packs on one channel or eyeballing the cut-off instead of waiting for the rig to call it. Pack in to the rig, watch it discharge, log runs into the logbook, pack marked discharged, into the club bin. A pack marked discharged without the log to back it is the exact gap this week's lecture points at — a pack going missing from the record is how one goes unaccounted for later, and the paperwork is the only thing standing between a bin full of safe packs and a cupboard nobody has checked in months. This is not ceremony — it is the last hour of a long semester, and it is routine. `R-14` is closed when every pack from this course, discharged, is back in the bin, signed off. That is all it is.
 
-:::figure{kind="electronics"}
+:::figure{kind="electronics" img="sessions/week-12.jpg"}
 A bench discharge rig: a pack wired through a programmable electronic load to a data logger, with a voltage trace shown dropping from full charge down to the cut-off line, and a row of pack ID tags waiting on a tray beside the rig for their turn on the load.
 :::
 

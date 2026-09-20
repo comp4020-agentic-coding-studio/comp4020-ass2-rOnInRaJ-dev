@@ -19,11 +19,11 @@ CDR happens in a room with the aircraft itself on the bench, not a set of drawin
 
 `R-01` and `R-09` close at CDR with measured lines, not the estimated ones the ledger has carried since week 3. Every component either sits on the scale or carries a sourced figure from a datasheet; an "estimated" tag left against a part that is physically sitting on the bench in front of the reviewers is a finding against the team, not an administrative gap. The mass cap is 1800 g. The course design point allocates 1560 g of that across its named subsystem lines, leaving a 240 g reserve — a tenth of the cap, which is exactly what `R-09` asks the ledger to hold onto at this review. That reserve is not comfort margin for whoever owns it. It is where a change lands after CDR, because nothing gets heavier for free once the ledger is closed. A change-control record has three parts, in order: the reason a line moved, a re-check of every requirement that line touches, and a record of both filed against the ledger itself. A typical entry reads something like: servo mount reinforced after a bench test flagged flex under load; mass line moved to a heavier bracket; `R-01` and `R-11` re-checked against the new total; reserve reduced by the difference. A line that changes without an entry like that did not happen, as far as the review is concerned — it is simply wrong, later, when somebody notices the ledger and the aircraft disagree.
 
-:::figure{kind="structures"}
+:::figure{kind="structures" img="lectures/week-09-a.jpg"}
 A CDR ledger board: one row per subsystem mass line — wing, fuselage, tail, propulsion, battery, avionics, servos, payload, consumables — each row tagged estimated, sourced or measured, with a running total column and the 1800 g cap drawn as a line above the stack, the 240 g reserve shaded as the gap between the total and the cap.
 :::
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-09-b.jpg"}
 A build-sequence timeline: "route and test wiring harness" shown strictly before "close structural skin" with a padlock icon between them, and "fit battery bay" shown strictly before "close fuselage shell" with a second padlock icon, each pair joined by a one-way arrow that cannot run backward once the downstream step has started.
 :::
 

@@ -19,11 +19,11 @@ A mission statement can sound solid in a room and vanish under questioning. "The
 
 A requirement has three parts: a threshold (the actual number), an owner (the subsystem that makes it true), and a verification method (how you prove it works). `R-01`, the aircraft shall weigh no more than 1800 g, has all three: the threshold is 1800 g, the owner is Structures, and you verify it by weighing the aircraft flight-ready on the lab scale — not the wing alone, not the airframe without a battery, the whole aircraft, ready to fly, on the scale, on the day a review asks for it. Leave any of the three parts out and the sentence stops being testable. "The aircraft should be light" has no threshold, so nobody can say when it has failed. A number with no owner attached has nobody who has to answer for it when it doesn't hold. This mirrors the shape of every entry in the mass ledger, where you open this week. Every line is an estimate with a method behind it — not yet a measurement, but not a guess either: "estimated from a comparable design, scaled to our wing area" is a method; "about a kilogram, probably" is not. The ledger does not tell you how much the wing weighs; it tells you how you will find out, and it makes you write the method down before anyone weighs anything.
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-02-a.jpg"}
 An annotated sentence diagram: the words "the aircraft shall weigh no more than 1800 g" broken into three labelled callouts — threshold pointing at "1800 g", owner pointing at "Structures", verification pointing at "weighed flight-ready on the lab scale" — beside a crossed-out speech bubble reading "the aircraft should be light" with no callouts attached to it at all.
 :::
 
-:::figure{kind="general"}
+:::figure{kind="general" img="lectures/week-02-b.jpg"}
 A ledger row close-up: a single line item reading "wing structure," with three tags lined up beside it — estimated, sourced, measured — only the estimated tag filled in and the other two shown as empty outlines waiting their turn, and a small magnifying glass hovering over the method column reading "estimated from a comparable design, scaled to our wing area."
 :::
 

@@ -30,11 +30,11 @@ Shear and bending are not two versions of the same sum done to different precisi
 
 A team calculated shear stress in the spar joiner and found it adequate. They did not calculate bending stress. In flight, the wing loaded in bending and the root joint failed. The joiner was right for shear, wrong for bending. The aircraft came down. This is why the lecture names which load case you are sizing for, and the studio asks which case actually governs. A spar sized for the wrong case looks right until loaded in the case that matters — the joiner in this story sat on a bench, took a hand-load test in shear, and passed, because nobody applied a bending moment to it before it flew. Tip deflection is what the rig measures, not what you design to. Your CAD model predicts deflection from your beam and section. The field measures deflection on a spare club wing — different wing, different number. What matters is whether your prediction came close and what that says about your calculation, not whether the two numbers match to the millimetre; a wing built from different stock with a different span will not deflect by the same amount even under an identical load, and a large gap between prediction and measurement is a reason to check the beam model, not the club's wing.
 
-:::figure{kind="structures"}
+:::figure{kind="structures" img="lectures/week-07-a.jpg"}
 A cross-section cutaway of a spar at the wing root, drawn twice side by side: on the left, arrows showing shear flow running around the section's perimeter under a downward load; on the right, the same section shaded to show compression on the top surface and tension on the bottom surface under a tip-loaded bending moment, with the neutral axis marked as a dashed line through the centre.
 :::
 
-:::figure{kind="structures"}
+:::figure{kind="structures" img="lectures/week-07-b.jpg"}
 A two-panel diagram of the joiner failure story: the left panel shows the joiner clamped in a bench vice passing a hand-load shear test, labelled "shear: pass"; the right panel shows the same joiner in flight failing at the wing root under a bending moment, labelled "bending: never tested," with a large cross drawn over the right panel.
 :::
 
