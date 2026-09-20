@@ -1,5 +1,5 @@
 ---
-title: "Week 1 — The aircraft as a system"
+title: "The aircraft as a system"
 description: >-
   What a drone is once you stop looking at it as an object: five subsystems, one mass budget, and a set of handovers between them
 week: 1

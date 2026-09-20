@@ -1,5 +1,5 @@
 ---
-title: "Week 6 — Where the centre of gravity has to be"
+title: "Where the centre of gravity has to be"
 description: >-
   Static stability, tail sizing and the first CAD session: making the aircraft want to fly straight without being asked
 week: 6

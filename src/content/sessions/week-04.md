@@ -1,5 +1,5 @@
 ---
-title: "Week 4 — Studio 4 — the glide test"
+title: "The glide test"
 description: >-
   Measuring a real lift-to-drag ratio off a club trainer, and comparing it with the one you calculated
 week: 4

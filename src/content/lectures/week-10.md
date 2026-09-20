@@ -1,5 +1,5 @@
 ---
-title: "Week 10 — Proving it without flying it"
+title: "Proving it without flying it"
 description: >-
   Test readiness: the verification matrix, and the six requirements you can close on the ground before you risk the aircraft
 week: 10

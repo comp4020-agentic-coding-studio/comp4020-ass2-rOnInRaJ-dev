@@ -1,5 +1,5 @@
 ---
-title: "Week 10 — Studio 10 — range and failsafe"
+title: "Range and failsafe"
 description: >-
   Test readiness review, then the range check and a deliberate link-loss test on your own airframe
 week: 10

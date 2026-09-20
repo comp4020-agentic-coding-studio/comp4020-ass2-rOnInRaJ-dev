@@ -1,5 +1,5 @@
 ---
-title: "Week 5 — Studio 5 — preliminary design review, and the thrust stand"
+title: "Preliminary design review, and the thrust stand"
 description: >-
   The power system gets baselined, and your motor and propeller go on the stand for real numbers
 week: 5

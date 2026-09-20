@@ -1,5 +1,5 @@
 ---
-title: "Week 4 — Lift, drag, and a very small Reynolds number"
+title: "Lift, drag, and a very small Reynolds number"
 description: >-
   Why an aerofoil that works on an airliner does nothing useful at model scale, and how to size a wing for the mass you have
 week: 4

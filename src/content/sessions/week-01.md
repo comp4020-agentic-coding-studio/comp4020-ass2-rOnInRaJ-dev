@@ -1,5 +1,5 @@
 ---
-title: "Week 1 — Studio 1 — fly it before you design it"
+title: "Fly it before you design it"
 description: >-
   Your first flights, on a club trainer, on a buddy box, before you have made a single design decision
 week: 1

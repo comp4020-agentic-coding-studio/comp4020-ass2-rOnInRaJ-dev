@@ -1,5 +1,5 @@
 ---
-title: "Week 7 — The spar carries everything"
+title: "The spar carries everything"
 description: >-
   Load cases, spar sizing and materials: working out what the wing has to survive and what it costs in grams to survive it
 week: 7

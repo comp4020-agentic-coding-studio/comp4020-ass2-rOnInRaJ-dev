@@ -1,5 +1,5 @@
 ---
-title: "Week 5 — The battery sets the mass"
+title: "The battery sets the mass"
 description: >-
   Power, packs, radio and the flight controller — taught in week 5 on purpose, because everything downstream is waiting on these numbers
 week: 5

@@ -1,5 +1,5 @@
 ---
-title: "Week 8 — Most failures are interface failures"
+title: "Most failures are interface failures"
 description: >-
   Interface control and failure modes, and the week manufacture starts: the handovers between subsystems are where aircraft are lost
 week: 8

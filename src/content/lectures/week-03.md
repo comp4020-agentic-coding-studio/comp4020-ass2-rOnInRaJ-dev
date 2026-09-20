@@ -1,5 +1,5 @@
 ---
-title: "Week 3 — Decomposition, and choosing a configuration"
+title: "Decomposition, and choosing a configuration"
 description: >-
   Breaking the mission into functions, allocating each to a subsystem, and running the configuration trade that decides what you build
 week: 3

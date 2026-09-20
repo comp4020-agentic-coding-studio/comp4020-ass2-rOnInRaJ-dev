@@ -1,5 +1,5 @@
 ---
-title: "Week 6 — Studio 6 — moving the balance point"
+title: "Moving the balance point"
 description: >-
   Three centre-of-gravity positions on a club trainer, and the handling change at each one
 week: 6

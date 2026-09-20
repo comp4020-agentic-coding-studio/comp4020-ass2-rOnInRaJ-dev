@@ -1,5 +1,5 @@
 ---
-title: "Week 3 — Studio 3 — requirements and concept review"
+title: "The first review"
 description: >-
   The first formal review: your requirement set, your chosen configuration, and the one you rejected
 week: 3

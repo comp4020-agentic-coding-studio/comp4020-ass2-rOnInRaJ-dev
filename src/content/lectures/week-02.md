@@ -1,5 +1,5 @@
 ---
-title: "Week 2 — What the aircraft is for"
+title: "What the aircraft is for"
 description: >-
   Turning a vague mission into numbered requirements that can actually fail, and opening the mass ledger
 week: 2

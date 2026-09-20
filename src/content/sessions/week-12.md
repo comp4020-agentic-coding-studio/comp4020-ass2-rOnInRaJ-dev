@@ -1,5 +1,5 @@
 ---
-title: "Week 12 — Studio 12 — the fly-off"
+title: "The fly-off"
 description: >-
   The mission, the signature capability, the scoring, and every pack back in the club bin before anybody goes home
 week: 12

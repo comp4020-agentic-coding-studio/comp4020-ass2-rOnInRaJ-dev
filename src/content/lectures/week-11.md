@@ -1,5 +1,5 @@
 ---
-title: "Week 11 — Predicted against logged"
+title: "Predicted against logged"
 description: >-
   Flight testing as an experiment: planning a flight that answers one question, and reading the log afterwards
 week: 11

@@ -1,5 +1,5 @@
 ---
-title: "Week 9 — Building the thing you drew"
+title: "Building the thing you drew"
 description: >-
   The critical design review, and what a change costs once the aircraft is being built rather than drawn
 week: 9

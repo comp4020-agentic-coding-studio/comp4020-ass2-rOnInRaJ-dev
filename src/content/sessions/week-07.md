@@ -1,5 +1,5 @@
 ---
-title: "Week 7 — Studio 7 — loading the wing"
+title: "Loading the wing"
 description: >-
   A spare club wing goes on the load rig, and the beam calculation you did meets the deflection you measure
 week: 7

@@ -1,5 +1,5 @@
 ---
-title: "Week 11 — Studio 11 — the timed leg"
+title: "The timed leg"
 description: >-
   Flight readiness review, then your own aircraft flies a timed cruise leg against the number you predicted
 week: 11

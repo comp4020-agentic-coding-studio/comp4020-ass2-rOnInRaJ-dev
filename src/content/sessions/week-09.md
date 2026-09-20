@@ -1,5 +1,5 @@
 ---
-title: "Week 9 — Studio 9 — weighing it"
+title: "Weighing it"
 description: >-
   Critical design review at the field, with the aircraft on the scale in front of you
 week: 9

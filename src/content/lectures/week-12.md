@@ -1,5 +1,5 @@
 ---
-title: "Week 12 — What the wreckage tells you"
+title: "What the wreckage tells you"
 description: >-
   A real drone failure taken back to its cause, the fly-off, and the part of the life cycle nobody photographs: disposal
 week: 12
