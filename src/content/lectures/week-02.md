@@ -1,23 +1,20 @@
 ---
-title: Second lecture
-description:
-  Week 2 — the first substantive material, and the run-up to the first review
+title: "Week 2 — What the aircraft is for"
+description: >-
+  Turning a vague mission into numbered requirements that can actually fail, and opening the mass ledger
 week: 2
 date: 2027-03-01
 teachers:
-  - idris-fenn
+  - halcyon-pree
 related:
-  - sessions/02-first-review
-  - assessments/assignment-1
+  - sessions/week-02
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. It exists so the lectures listing sorts by week and the
-related block has more than one edge to draw.
+**By the end:** you can turn a sentence about what your aircraft is for into requirements somebody else could fail you against.
 
 ## Outline
 
-- the first substantive material, and where it shows up in practice
-- what the first review is looking for
-- reading before next week
+- the difference between a wish and a requirement, which is whether it can fail
+- writing a requirement: the threshold, the owner, and how it gets verified
+- the course requirement set R-01 to R-14, and why it is a floor and not your requirements
+- opening the ledger: every line an estimate, every estimate with a method

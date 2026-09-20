@@ -125,7 +125,7 @@ export const requirements: Requirement[] = [
 
 /** The five weeks that hold a formal review, and the requirements each one
  *  closes or re-baselines. Studios in these weeks must link the set. */
-export const reviewWeeks: Record<number, { name: string; covers: string[] }> = {
+export const reviewWeeks: Record<number, { name: string; covers: `R-${string}`[] }> = {
   3: {
     name: "Requirements & concept review",
     covers: ["R-01", "R-02", "R-07", "R-08"],

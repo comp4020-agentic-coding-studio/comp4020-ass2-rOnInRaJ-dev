@@ -52,10 +52,14 @@ describe("field days", () => {
 
 describe("workload", () => {
   it("adds the published hours table up to the declared weekly total", () => {
-    // The table is `| Component | Hours |` rows, closed by a **Total:** line.
-    const rows = [...siteText.matchAll(/^\|\s*([^|]+?)\s*\|\s*(\d+(?:\.\d+)?)\s*\|\s*$/gm)]
+    // Scoped to the ## Workload section, so a table added anywhere else on the
+    // site cannot silently join this sum.
+    const section = siteText.match(/##\s*Workload\b([\s\S]*?)(?=\n##\s|\n---\n)/i)?.[1] ?? "";
+    expect(section, "no ## Workload section on the site").not.toBe("");
+    const rows = [...section.matchAll(/^\|\s*([^|]+?)\s*\|\s*(\d+(?:\.\d+)?)\s*\|\s*$/gm)]
       .filter((m) => !/total/i.test(m[1]));
-    const declared = siteText.match(/\*\*Total:\*\*\s*(\d+(?:\.\d+)?)\s*h/i)?.[1];
+    expect(rows.length, "the workload table has no rows").toBeGreaterThan(2);
+    const declared = section.match(/\*\*Total:\*\*\s*(\d+(?:\.\d+)?)\s*h/i)?.[1];
     expect(declared, "no **Total:** line for the workload table").toBeDefined();
     const sum = rows.reduce((a, m) => a + Number(m[2]), 0);
     expect(sum, `hours rows sum to ${sum}, declared ${declared}`).toBe(Number(declared));

@@ -1,0 +1,157 @@
+---
+title: "Week 5 — The battery sets the mass"
+description: The power system lecture, taught in week 5 because everything downstream is waiting on it
+---
+
+{/* _class: impact */}
+
+# The battery sets the mass
+
+Week 5 · SLOP2440 · Bez Toomath
+
+---
+
+## Why this lecture is in week 5
+
+Most courses teach power in week 9, next to the build.
+
+By week 9 you have already drawn a wing.
+
+The wing was sized for a mass. A third of that mass is the pack. You cannot
+size the pack without knowing cruise power, and you cannot know cruise power
+without the wing.
+
+**So we open the loop here, with an estimate, and close it with a measurement.**
+
+---
+
+## The loop
+
+```
+wing area  →  stall speed  →  cruise speed
+     ↑                              ↓
+   mass    ←   pack size   ←   cruise power
+```
+
+It is circular. That is not a flaw in the method; it is the method.
+
+You go round it three times this semester: in week 4 with guesses, in week 5
+with bench numbers, and in week 11 with a flight log.
+
+---
+
+## Cruise power, from four numbers
+
+```
+P_elec  =  (W / (L/D)) * (V / eta)  +  P_avionics
+```
+
+- weight, in newtons, from the ledger
+- lift-to-drag, which week 4 measured off a club trainer
+- cruise speed, which you chose
+- drive efficiency, which is the one you will be optimistic about
+
+At the course design point this comes out at **60 W**.
+
+---
+
+## Be pessimistic about efficiency
+
+ESC × motor × propeller.
+
+Each one is "about ninety per cent" in the catalogue. Multiply three optimistic
+numbers and you get one very optimistic number.
+
+The course design point assumes half. Bench measurement in this week's studio
+tells you what yours actually is.
+
+{/* _class: quote */}
+
+> A drive efficiency you did not measure is a wish with a decimal point.
+
+---
+
+## Sizing the pack
+
+Four cells, 2200 mAh, nominal 14.8 volts.
+
+- pack energy: **32.6 Wh**
+- usable above the cut-off, at eighty per cent: **26 Wh**
+- at 60 W cruise: **26 minutes**
+
+`R-06` wants at least 26 Wh usable. `R-07` wants at least twenty minutes.
+
+Both are met — at the design point, on paper, on a new pack, at twenty degrees.
+
+---
+
+## What a pack actually does
+
+Nothing above is true of a pack that is cold, old, or being asked for peak
+current.
+
+- voltage sags under load, and sag is where your cut-off arrives early
+- capacity falls with cycles, and your pack is not new
+- the last twenty per cent is not yours: taking it is how a pack puffs
+
+This is why `R-06` is verified by discharge on the bench, not by the label.
+
+---
+
+## Radio, and the failsafe you will not test
+
+The link is fine until it is not. `R-12` asks for 400 metres and a failsafe
+that circles and descends.
+
+Two failures, both common, both cheap to prevent:
+
+1. A range check passed on the ground with the aircraft on the grass, where the
+   antenna pattern flatters you.
+2. A failsafe configured, never tested, and set to "hold last stick position" —
+   which on a turning aircraft means a spiral into the ground.
+
+**Test it deliberately, at altitude, in week 10.**
+
+---
+
+## The flight controller is a loop, not a brain
+
+It reads a rate, compares it with the rate you asked for, and moves a surface.
+
+Proportional, integral, derivative. Three numbers that decide whether your
+aircraft feels solid, spongy, or like it is fighting you.
+
+You tune them on a club trainer this week, and on your own airframe in week 11
+— where the airframe has different inertia and all your numbers change.
+
+---
+
+## This week's studio
+
+Motor and propeller on the field thrust stand. Fresh pack. Log thrust against
+current, all the way to full throttle.
+
+**Predict static thrust and peak current before the stand is switched on.**
+Both numbers go in the log first.
+
+`R-04` wants static thrust at seven tenths of all-up weight. At the design point
+that is **1100 g** of thrust against **1560 g** of aircraft.
+
+---
+
+{/* _class: impact */}
+
+# Nobody stands in the propeller arc
+
+Armed from behind the blast shield. One person. Out loud.
+
+---
+
+## Before next week
+
+- bench discharge logged, `R-06` closed with a number
+- thrust curve in the ledger, `R-04` predicted and measured
+- pack mass on the scale, not off the website
+- preliminary design review pack ready: power system baselined
+
+Week 6 sizes the tail, and it will ask you what the aircraft weighs.

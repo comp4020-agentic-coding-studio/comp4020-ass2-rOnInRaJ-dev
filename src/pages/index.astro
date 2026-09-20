@@ -2,48 +2,108 @@
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
-import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
+import { derived, massBudget, MTOW_CAP_G } from "../data/ledger";
 import { sessionLabels, siteConfig } from "../site-config";
 
-// STARTER_CONTENT: replace the hero artwork and its alt text below, then
-// remove this comment.
+// No hero photograph, deliberately. The first thing on this page is the
+// ledger, rendered from src/data/ledger.ts — the course's actual subject,
+// drawn from the file every other page also reads.
+const LABELS: Record<keyof typeof massBudget, string> = {
+  wingStructure: "Wing structure",
+  fuselageStructure: "Fuselage",
+  tailStructure: "Tail",
+  propulsion: "Motor, ESC, propeller",
+  battery: "Battery",
+  avionics: "Avionics",
+  servos: "Servos and linkages",
+  payload: "Payload",
+  consumables: "Fasteners and finish",
+};
+
+const lines = Object.entries(massBudget).map(([key, grams]) => ({
+  label: LABELS[key as keyof typeof massBudget],
+  grams,
+  percent: (grams / MTOW_CAP_G) * 100,
+}));
 ---
 
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
-  heroImage={heroImage}
-  heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
-  <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
+  <p class="lede">
+    You get {MTOW_CAP_G} grams. Everything the aircraft is made of, everything it
+    carries and everything that makes it go has to come out of that number, and
+    so does the battery that has to lift all of it. Twelve weeks later you fly
+    what the arithmetic left you.
+  </p>
+
+  <table class="ledger">
+    <caption>The mass budget, at the course design point. Every page on this site reads these numbers from one file.</caption>
+    <thead>
+      <tr><th scope="col">Line</th><th scope="col">Grams</th><th scope="col">Share of the cap</th></tr>
+    </thead>
+    <tbody>
+      {lines.map((line) => (
+        <tr>
+          <th scope="row">{line.label}</th>
+          <td class="num">{line.grams}</td>
+          <td><span class="bar" style={`--w:${line.percent.toFixed(1)}%`}></span></td>
+        </tr>
+      ))}
+      <tr class="reserve">
+        <th scope="row">Unallocated reserve</th>
+        <td class="num">{derived.reserveG}</td>
+        <td><span class="bar bar-reserve" style={`--w:${((derived.reserveG / MTOW_CAP_G) * 100).toFixed(1)}%`}></span></td>
+      </tr>
+    </tbody>
+  </table>
+
   <h2>What you will do</h2>
   <p>
-    Say what a student spends their time on — the making, reading, arguing or
-    measuring that fills the weeks. Name the artefact they walk out with.
+    You fly in week 1, on somebody else's aircraft, on a buddy box, before you
+    have made a single design decision. Then you spend eleven weeks finding out
+    what it costs to build your own: a mission written as numbered requirements,
+    a wing sized for a stall speed you chose, a battery picked because the
+    cruise power said so, a spar that survives a load case, and a fly-off in
+    week 12 where the thing either does what you said it would or does not.
+  </p>
+  <p>
+    Every week you predict a number and then go and measure it. The gap between
+    those two is most of what this course teaches, and most of what it marks.
   </p>
 
   <h2>Who it is for</h2>
   <p>
-    Say who this is aimed at and what they need to already know. Be specific
-    enough that someone can rule themselves in or out without emailing you.
+    Second-year engineering students who would rather be held to a number than
+    to an opinion. You need first-year mechanics and enough programming to read
+    a flight log. You do not need to have flown anything: week 1 exists for
+    exactly that reason.
+  </p>
+  <p>
+    It is a twelve-unit intensive and it is about double an ordinary course.
+    Four people, one aircraft, one ledger, all semester.
   </p>
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
     <Card title={sessionLabels.plural} href="/sessions/">
-      <p>The weekly schedule and what happens in each teaching session.</p>
+      <p>Twelve weeks, each with a field objective your team books its own slot to fly.</p>
     </Card>
     <Card title="Assessment" href="/assessments/">
-      <p>What is marked, what it is worth, and when it is due.</p>
+      <p>Six items, adding to a hundred, every group one carrying the same systems-engineering row.</p>
+    </Card>
+    <Card title="Field days" href="/field-days/">
+      <p>How slots are booked at Mount Sludge, who is on duty, and what stops a session.</p>
     </Card>
     <Card title="People" href="/people/">
-      <p>Who teaches the course and how to reach them.</p>
+      <p>Who teaches this, and who at the club keeps you from hurting yourself.</p>
     </Card>
   </CardGrid>
 </ContentLayout>
@@ -64,5 +124,78 @@ import { sessionLabels, siteConfig } from "../site-config";
     color: var(--at-text-secondary);
     background: var(--at-bg-alt);
     font-size: 0.9rem;
+  }
+
+  .lede {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-block-end: 2rem;
+  }
+
+  .ledger {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-end: 2.5rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ledger caption {
+    text-align: left;
+    color: var(--at-text-secondary);
+    font-size: 0.9rem;
+    padding-block-end: 0.75rem;
+  }
+
+  .ledger th,
+  .ledger td {
+    text-align: left;
+    padding: 0.35rem 0.75rem 0.35rem 0;
+    border-block-end: 1px solid var(--at-border, currentColor);
+    font-weight: 400;
+  }
+
+  .ledger thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--at-text-secondary);
+  }
+
+  .ledger .num {
+    text-align: right;
+    width: 5rem;
+  }
+
+  .ledger td:last-child {
+    width: 55%;
+  }
+
+  .bar {
+    display: block;
+    width: var(--w);
+    height: 0.75rem;
+    background: var(--at-text-primary, currentColor);
+  }
+
+  .bar-reserve {
+    background: repeating-linear-gradient(
+      45deg,
+      currentColor 0 2px,
+      transparent 2px 5px
+    );
+  }
+
+  .reserve th,
+  .reserve td {
+    color: var(--at-text-secondary);
+  }
+
+  @media (max-width: 40rem) {
+    .ledger td:last-child {
+      display: none;
+    }
+    .ledger caption {
+      font-size: 0.85rem;
+    }
   }
 </style>

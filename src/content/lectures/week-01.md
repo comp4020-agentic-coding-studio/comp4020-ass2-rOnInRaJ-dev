@@ -1,30 +1,20 @@
 ---
-title: Opening lecture
-description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+title: "Week 1 — The aircraft as a system"
+description: >-
+  What a drone is once you stop looking at it as an object: five subsystems, one mass budget, and a set of handovers between them
 week: 1
 date: 2027-02-22
 teachers:
-  - marisol-quaye
-slides: /decks/week-01/
+  - halcyon-pree
 related:
-  - sessions/01-getting-started
+  - sessions/week-01
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
-
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
-
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
+**By the end:** you can draw your own aircraft as five subsystems and say what each one hands the others.
 
 ## Outline
 
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+- what this course means by a system, and why the ledger is the centre of it
+- the five subsystems, and who on a team of four owns which
+- the life cycle this course runs end to end: concept, build, flight, disposal
+- what happens in week 1, which is that you fly before you design anything
