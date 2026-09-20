@@ -46,17 +46,18 @@ export const slopCourseMetaSchema = z
 // The code's last three digits were assigned to this repo when it was
 // provisioned, and no other course in the cohort has them. Change the first
 // digit to your course's level (and `level` to match); keep the other three.
-// STARTER_CONTENT: replace this course record, then remove this comment.
 export const courseMeta = slopCourseMetaSchema.parse({
-  code: "SLOP1440",
-  title: "Course Title Goes Here",
+  code: "SLOP2440",
+  title: "Grams and Watt-Hours: Designing, Building and Flying a Battery Drone",
   session: "Semester 1",
   year: 2027,
-  level: 1,
+  level: 2,
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "One concise paragraph explaining what this course is, who it is for, " +
-    "and why somebody would choose to spend a semester taking it.",
-  tags: ["replace me"],
+    "Teams of four design, build and fly a battery-powered fixed-wing " +
+    "aircraft. Every subsystem spends from one shared ledger of grams, " +
+    "watts and watt-hours. You predict a number, then you go to the field " +
+    "and measure what you actually got.",
+  tags: ["systems engineering", "aeronautics", "hardware"],
 }) satisfies CourseMetaInput;
