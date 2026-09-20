@@ -16,6 +16,14 @@ related:
 
 This week works on `R-07`, `R-08`, `R-14`.
 
+## In the studio
+
+Before the field slot, your ledger and verification matrix get a final check. Every line should already be measured, not estimated. The preliminary design point's predictions arrived in week 4; the real numbers have been logged week by week since. This is a closing-out pass, not a formal review — the measurements are done, and the paper is signed off. If a number is still an estimate, that is the moment to do the bench run or the calculation that closes it.
+
+Your team's signature capability gets a final rehearsal here, in the studio, not the first time at the field. Whatever you chose in week 4 — the mass-fraction entry, the precision drop, the slowest flight time — gets a dry run on the bench or on a simulator if one fits your design. Running through the manoeuvre in front of someone else is different from running it in your head. Equipment failures show up in rehearsal. Time to fix them is now, not on the fly-off day.
+
+After the field slot, every pack gets discharged on the bench, using the same logging rig and the same cut-off voltage you used for the week 5 bench discharge. The log shows current and voltage from full charge to the cut-off at the load you specified. Pack in to the rig, watch it discharge, log runs into the logbook, pack marked discharged, into the club bin. This is not ceremony — it is the last hour of a long semester, and it is routine. `R-14` is closed when every pack from this course, discharged, is back in the bin, signed off. That is all it is.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for

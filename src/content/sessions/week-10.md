@@ -16,6 +16,12 @@ related:
 
 This week works on `R-01`, `R-04`, `R-10`, `R-11`, `R-12`, `R-13`.
 
+## In the studio
+
+**Workshop hours:** The failsafe behaviour is a parameter your team sets deliberately on the bench, with the propeller off, before it is ever tested in the air. Your transmitter has two options: hold the last stick position it received, or circle and descend. `R-12` requires the second. A team that leaves the failsafe at its default discovers what it does at altitude, in front of the instructor, rather than beforehand — and that discovery is vastly more expensive than testing it here.
+
+**Lab hours:** Book the thrust stand and log `R-04` — predict static thrust, measure it, compare. Book the sandbag rig and log `R-10` — spar limit load predicted, then measured under controlled loading. Book the knife edges and log `R-11` — place the aircraft on two edges, find the balance point, record the centre of gravity. Book the protractor rig and run fifty control cycles for `R-13` — move each surface full deflection back and forth, log the repeatability. `R-01` is re-confirmed at flight-ready mass here; expect it to have crept since week 9 as batteries, finish, and fasteners accumulate.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for
