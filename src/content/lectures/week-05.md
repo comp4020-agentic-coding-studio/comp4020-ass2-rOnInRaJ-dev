@@ -20,6 +20,10 @@ This week's slides take you through cruise power, pack sizing, radio links and f
 
 A preliminary design review is not a presentation. It is one page per subsystem, each with a number, a method, and a sign-off column left blank until a bench or a field slot fills it in. Propulsion & Power brings 1100 g of predicted static thrust and 26 Wh of predicted usable energy to this review, and neither has a measurement behind it yet — that gap is not a defect in the review, it is the reason the review sits in week 5 and not week 11. What the review does check is whether a number has a method attached to it: a static thrust figure with no test plan behind it does not pass on the promise that testing will happen eventually. The pack-energy line is checked against the mass line before it is checked against anything else, because a heavier pack raises the mass the wing has to loft, which raises the wing area, which raises the number every other subsystem was designed around. Move the pack-energy line after this week and the loop above it does not get patched, it gets re-run.
 
+:::figure{kind="general"}
+A preliminary design review sheet mock-up: one row per subsystem, Propulsion & Power's row showing 1100 g predicted static thrust and 26 Wh predicted usable energy in the number column, a short method note beside each, and a sign-off column ruled but left blank.
+:::
+
 ## Outline
 
 - cruise power from drag, speed and a drive efficiency you can defend

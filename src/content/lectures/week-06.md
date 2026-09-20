@@ -23,6 +23,10 @@ Sizing a tail is arithmetic, not intuition. A tail volume coefficient is a ratio
 A side-view profile of the aircraft showing the wing's mean aerodynamic chord as a shaded band, a shaded vertical zone on the fuselage marking the twenty-eight to thirty-four per cent range, an arrow from the wing's quarter-chord point back to the tail's quarter-chord point labelled "tail arm," and a small marker showing the actual centre of gravity position for comparison against the shaded band.
 :::
 
+:::figure{kind="cad"}
+A CAD viewport mock-up: a three-dimensional wireframe model of the airframe with a materials-and-density panel open beside it, one part (the tail) highlighted with its properties panel showing a computed mass instead of a typed-in estimate, and a small arrow marking that value feeding straight into the ledger.
+:::
+
 ## Outline
 
 - static margin, and why an aft centre of gravity feels quick right up until it does not

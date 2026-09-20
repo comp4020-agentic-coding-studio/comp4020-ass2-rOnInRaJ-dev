@@ -23,6 +23,10 @@ A requirement has three parts: a threshold (the actual number), an owner (the su
 An annotated sentence diagram: the words "the aircraft shall weigh no more than 1800 g" broken into three labelled callouts — threshold pointing at "1800 g", owner pointing at "Structures", verification pointing at "weighed flight-ready on the lab scale" — beside a crossed-out speech bubble reading "the aircraft should be light" with no callouts attached to it at all.
 :::
 
+:::figure{kind="general"}
+A ledger row close-up: a single line item reading "wing structure," with three tags lined up beside it — estimated, sourced, measured — only the estimated tag filled in and the other two shown as empty outlines waiting their turn, and a small magnifying glass hovering over the method column reading "estimated from a comparable design, scaled to our wing area."
+:::
+
 None of this is bookkeeping for its own sake. A requirement without a verification method is a promise nobody has to keep, and a mass ledger without a method per line is a spreadsheet of hopes with numbers attached. The three parts exist so a requirement can fail in public, at a review, in front of the whole team, rather than fail quietly in March when the finished aircraft is over a cap nobody wrote down properly. The course requirement set, `R-01` to `R-14`, is a floor: it sets the mass cap, the power budget and the disposal rule. It is not your aircraft, and it is not your mission — nobody on the course requirement set has flown your configuration or timed your circuit. Your requirements are built on top of that floor, numbered by your own team, and verified in the weeks that follow, starting with the review at the end of week 3. The floor does not move for you, and it does not do your work for you either; it only tells you the lowest height your own work has to clear.
 
 ## Outline

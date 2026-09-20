@@ -23,6 +23,10 @@ CDR happens in a room with the aircraft itself on the bench, not a set of drawin
 A CDR ledger board: one row per subsystem mass line — wing, fuselage, tail, propulsion, battery, avionics, servos, payload, consumables — each row tagged estimated, sourced or measured, with a running total column and the 1800 g cap drawn as a line above the stack, the 240 g reserve shaded as the gap between the total and the cap.
 :::
 
+:::figure{kind="general"}
+A build-sequence timeline: "route and test wiring harness" shown strictly before "close structural skin" with a padlock icon between them, and "fit battery bay" shown strictly before "close fuselage shell" with a second padlock icon, each pair joined by a one-way arrow that cannot run backward once the downstream step has started.
+:::
+
 Build sequencing is fixed by CDR too, because some jobs cannot be reordered once an aircraft exists rather than a drawing. A wiring harness has to be routed, tied off and tested before the structural skin closes over it — a servo lead trapped inside a wing that is already skinned is not a five-minute fix, it is a skin panel that has to come back off. The same logic runs the other way: a battery bay has to be sized and fitted before the fuselage shell is closed around it, because a bay too small for the pack it was meant to hold is a fuselage rebuild, not an adjustment. Neither error shows up as a design defect on a drawing. Both show up as a studio session spent undoing two studio sessions of finished work.
 
 ## Outline

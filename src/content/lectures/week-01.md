@@ -23,6 +23,10 @@ That distinction matters because the rest of this course asks you to design a sy
 A top-down aircraft silhouette split into five labelled zones — Aero (wing and tail), Structures (fuselage and payload bay), Propulsion & Power (motor and battery bay), Avionics & Control (receiver and servos), Operations (a clipboard beside the airframe) — joined by arrows carrying one labelled figure each: a drag number, an all-up mass, a current draw, a response time, a flight-time window, looping back around to Aero.
 :::
 
+:::figure{kind="general"}
+A four-stage loop diagram — concept, build, flight, disposal — arranged in a circle and joined by arrows: the concept stage marked with a pencil and a question mark, the build stage marked with a scale, the flight stage marked with a logged trace, the disposal stage marked with a battery being checked back in, and a dashed arrow curving from disposal back to concept for the next design pass.
+:::
+
 The same five subsystems run through the same stages, in order, every week of the course: concept, build, flight, disposal. What changes between stages is not the subsystem, it is how confident its number is. A concept-stage number is an estimate nobody has checked yet. A build-stage number is something you can put on a scale. A flight-stage number is something you measured with the aircraft actually in the air. A disposal-stage number is the last one anyone records, because it closes the loop on a pack that started the course fully charged and finishes it flat, checked back in by somebody who was not the person who checked it out. None of that starts this week. This week the aircraft is a club trainer you did not design, and the only subsystem doing anything at all is Operations, making sure you get in the air in the first place.
 
 ## Outline

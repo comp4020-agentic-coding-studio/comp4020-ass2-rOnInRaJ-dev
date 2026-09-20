@@ -25,6 +25,10 @@ Your log needs to show the numbers that answer the question. The course design p
 A logged flight trace: airspeed, pack current and elevator deflection plotted against time on three stacked axes, with a callout marking the stall departure point where the airspeed curve flattens and the elevator trace shows the recovery input, and a second callout on the current trace marking the motor start-up spike.
 :::
 
+:::figure{kind="general"}
+A test card clipped to a kneeboard: one manoeuvre named at the top, one predicted number written into a boxed field, and a short list of required conditions — wind under a stated limit, full charge, clean configuration — each with a tick box, all filled in above a propeller icon at the bottom that is greyed out and not yet turning.
+:::
+
 A log that only records a single number at the end of the flight throws away the part that answers the question. Stall speed is not one number; it is the airspeed trace in the seconds before departure, and the point where lift stops following the stick input is the departure, not the lowest airspeed reached afterward while the nose drops. Cruise power is not a single reading either — it is current and voltage sampled through the entire straight leg, because a single snapshot can land on a gust and get called representative.
 
 A controller tuned on a club trainer does not transfer to your own airframe. The trainer flies with more elevator throw for its own stability margin and a lower wing loading than your own airframe carries, so a control gain that feels calm on the trainer can feel twitchy, or marginal, on an aircraft that is heavier and less forgiving. Tune on your own aircraft, on the bench if you can, or in the air over several shallow flights, not on the aircraft that happens to be convenient that afternoon. The flight readiness review is the last formal gate, and it checks the test card and the tuning history together, not either alone — a controller that has never been tuned in the air is not ready even if every bench number looks correct. Nothing is flown at the fly-off in week 12 without it.

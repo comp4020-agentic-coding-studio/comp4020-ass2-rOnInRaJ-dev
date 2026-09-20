@@ -32,4 +32,8 @@ Every subsystem on this aircraft is correct on its own bench. The pack meets its
 A simple block diagram of four subsystem boxes — power, propulsion, avionics, structures — connected by labelled arrows, each arrow carrying a small tag naming what crosses it: grams, watts, volts, or a data line, with one arrow highlighted and annotated "interface: written down here, owned by neither box."
 :::
 
+:::figure{kind="general"}
+A before-and-after diagram of the same servo and control horn: the left side, labelled "bench-tested," shows the servo spinning freely in an open jig with no control horn attached; the right side, labelled "as flown," shows the same servo bolted to a control horn that was never present during the bench test, with a small flag on the right side reading "first time these two parts have ever met."
+:::
+
 From this week, your interfaces are frozen. Manufacture begins, and changing a frozen interface now demands the same re-check a design-review correction will face in week 9. Every change downstream of an interface — a different connector, a rewired servo lead, a second battery cell — now needs a re-run of the failure-mode walk and a signed-off change notice from the subsystem that owns the downstream code. This is a cost stated flatly, not a warning: a connector swap that would have taken ten minutes in week 3, before anything was built around it, now takes a re-check of every interface that connector touches, because the whole point of freezing the document this week is that nobody downstream should have to re-verify their own work every time somebody upstream has a better idea. The freeze is what lets four subsystems build in parallel for the next few weeks without four people constantly re-reading each other's changes.

@@ -23,6 +23,10 @@ Aerodynamics sets the power you need: at 12 m/s cruise, the drag and the speed t
 Two aerofoil cross-sections side by side at the same angle of attack, each with airflow streamlines over the upper surface — the left one, labelled "full-size, high Reynolds number", shows the flow staying attached almost to the trailing edge; the right one, labelled "model scale, low Reynolds number", shows the flow separating early into a visible bubble partway along the chord, with the stall angle marked lower on the right-hand curve.
 :::
 
+:::figure{kind="aero"}
+A four-node loop diagram: wing area, cruise power, battery mass and all-up mass arranged in a circle with arrows running one into the next and back around, `R-02` tagged on the wing-area node and `R-03` tagged on a stall-speed node beside it, and a spiral arrow drawn behind the loop labelled "tightens again in week 5, tightens again in week 11."
+:::
+
 None of this loop closes this week. What closes this week is smaller: a wing area, sized once, from a mass estimate that is still mostly guesswork this early in the course. The loop keeps tightening every week after this one, and by the time a battery has an actual measured mass in week 5, the wing you sized this week may already be the wrong size for it.
 
 ## Outline

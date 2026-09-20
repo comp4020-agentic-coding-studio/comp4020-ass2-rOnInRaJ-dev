@@ -27,6 +27,10 @@ The fly-off runs a full day at Mount Sludge. Every team flies the mission it wro
 A fly-off day schedule diagram: a single flight-line timeline showing each team's slot in sequence — mission flight, signature capability flight, pack discharge — with a callout noting only one aircraft is live on the line at a time and every other team's pack disconnected during that slot.
 :::
 
+:::figure{kind="electronics"}
+Two battery packs side by side on a bench: the left pack flat and regular, labelled "checked in, week 11, full charge"; the right pack visibly swollen and domed, labelled "retrieved, week 12, fourteen days in a hot car," with a caution icon over the right pack and an arrow from it toward a lockable disposal bin in the corner of the frame.
+:::
+
 `R-14` has no engineering content. It is bookkeeping. Every pack comes back discharged to the club bin, signed off in the logbook, closing the loop on every pack the course issued. That is absolute. It is not a design requirement; it is a disposal rule, and it stays. The bin itself is a lockable cabinet in the clubhouse, not a bench somebody might forget to lock. A discharged pack that never makes it there is, as far as the club's own records are concerned, still an issued pack, sitting somewhere, ageing the same way the one in this story did.
 
 ## Outline

@@ -23,6 +23,10 @@ Functional decomposition is the other half of this week, and it comes before the
 Three side-by-side silhouettes — a fixed-wing, a quadcopter and a tilt-rotor VTOL — each with the same four criteria listed beside it (endurance, payload volume, disc loading, power-to-weight) and an identical weight percentage next to each criterion across all three silhouettes, with a score box under each criterion that differs between them.
 :::
 
+:::figure{kind="general"}
+A functional decomposition diagram: five subsystem boxes — Aero, Structures, Propulsion & Power, Avionics & Control, Operations — each with a short list of functions posted to it from a floating mission list above, one function ("transmit sensor data") shown drifting unclaimed between two boxes with a red circle drawn around the gap between them.
+:::
+
 Decomposition and the trade study are bookkeeping, not philosophy, and the review at the end of this week checks exactly that: that every function has one owner, and that the weights were dated before the scores were. Neither check tells you whether fixed-wing was the right answer for your mission. Both checks tell you whether you can prove you decided it the way you are claiming you did.
 
 ## Outline

@@ -34,4 +34,8 @@ A team calculated shear stress in the spar joiner and found it adequate. They di
 A cross-section cutaway of a spar at the wing root, drawn twice side by side: on the left, arrows showing shear flow running around the section's perimeter under a downward load; on the right, the same section shaded to show compression on the top surface and tension on the bottom surface under a tip-loaded bending moment, with the neutral axis marked as a dashed line through the centre.
 :::
 
+:::figure{kind="structures"}
+A two-panel diagram of the joiner failure story: the left panel shows the joiner clamped in a bench vice passing a hand-load shear test, labelled "shear: pass"; the right panel shows the same joiner in flight failing at the wing root under a bending moment, labelled "bending: never tested," with a large cross drawn over the right panel.
+:::
+
 The wing-structure line in the ledger — the 310 g you have to fit a material and section inside — is still an estimate everywhere in the site except where a team's own CAD II model has replaced it. That is what this week's second CAD pass does: it takes the section you chose, applies real material densities, and returns a number that either confirms the estimate or corrects it, and from that point the ledger line reads as sourced from a model, not carried forward from a guess made in week 2. In week 8, the spar becomes an interface: mass and stiffness handed over to what bolts on.
