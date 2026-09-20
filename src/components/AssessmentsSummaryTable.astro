@@ -1,0 +1,60 @@
+---
+import { getPublishedCollection } from "astro-course-university/content";
+import { withBase } from "astro-theme-university/url";
+import { formatCourseDate } from "../lib/dates";
+
+const assessments = await getPublishedCollection("assessments");
+const visible = assessments.sort((a, b) => a.data.due.getTime() - b.data.due.getTime());
+---
+
+<table class="due-table">
+  <caption>All six items, in the order they fall due.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Due</th>
+      <th scope="col">Assessment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      visible.map((assessment) => (
+        <tr>
+          <td>{formatCourseDate(assessment.data.due)}</td>
+          <td>
+            <a href={withBase(`/assessments/${assessment.id}/`)}>{assessment.data.title}</a>
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
+
+<style>
+  .due-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-end: 2rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .due-table caption {
+    text-align: left;
+    color: var(--at-text-secondary);
+    font-size: 0.9rem;
+    padding-block-end: 0.75rem;
+  }
+
+  .due-table th,
+  .due-table td {
+    text-align: left;
+    padding: 0.4rem 0.75rem 0.4rem 0;
+    border-block-end: 1px solid var(--at-border, currentColor);
+  }
+
+  .due-table thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--at-text-secondary);
+  }
+</style>

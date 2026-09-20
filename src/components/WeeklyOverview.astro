@@ -1,0 +1,96 @@
+---
+import { getPublishedCollection } from "astro-course-university/content";
+import { withBase } from "astro-theme-university/url";
+import { formatCourseDate } from "../lib/dates";
+
+const [lectures, sessions, assessments] = await Promise.all([
+  getPublishedCollection("lectures"),
+  getPublishedCollection("sessions"),
+  getPublishedCollection("assessments"),
+]);
+
+const weeks = Array.from({ length: 12 }, (_, i) => i + 1).map((week) => ({
+  week,
+  lecture: lectures.find((l) => l.data.week === week),
+  session: sessions.find((s) => s.data.week === week),
+  due: assessments
+    .filter((a) => a.data.week === week)
+    .sort((a, b) => a.data.due.getTime() - b.data.due.getTime()),
+}));
+---
+
+<table class="weekly-table">
+  <caption>Every week's lecture and studio session, and whatever falls due that week.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Week</th>
+      <th scope="col">Topic</th>
+      <th scope="col">Lecture</th>
+      <th scope="col">Studio session</th>
+      <th scope="col">Due</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      weeks.map(({ week, lecture, session, due }) => (
+        <tr>
+          <th scope="row">{week}</th>
+          <td>{lecture?.data.tags.length ? lecture.data.tags.join(", ") : "—"}</td>
+          <td>{lecture ? <a href={withBase(`/lectures/${lecture.id}/`)}>{lecture.data.title}</a> : "—"}</td>
+          <td>{session ? <a href={withBase(`/sessions/${session.id}/`)}>{session.data.title}</a> : "—"}</td>
+          <td>
+            {due.length === 0
+              ? "—"
+              : due.map((assessment) => (
+                  <div>
+                    <a href={withBase(`/assessments/${assessment.id}/`)}>{assessment.data.title}</a>{" "}
+                    <small>({formatCourseDate(assessment.data.due)})</small>
+                  </div>
+                ))}
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
+
+<style>
+  .weekly-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-end: 2.5rem;
+  }
+
+  .weekly-table caption {
+    text-align: left;
+    color: var(--at-text-secondary);
+    font-size: 0.9rem;
+    padding-block-end: 0.75rem;
+  }
+
+  .weekly-table th,
+  .weekly-table td {
+    text-align: left;
+    padding: 0.4rem 0.75rem 0.4rem 0;
+    border-block-end: 1px solid var(--at-border, currentColor);
+    vertical-align: top;
+  }
+
+  .weekly-table thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--at-text-secondary);
+  }
+
+  .weekly-table td small {
+    color: var(--at-text-secondary);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 40rem) {
+    .weekly-table {
+      font-size: 0.85rem;
+    }
+  }
+</style>
