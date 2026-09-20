@@ -13,6 +13,7 @@ const visible = assessments.sort((a, b) => a.data.due.getTime() - b.data.due.get
     <tr>
       <th scope="col">Due</th>
       <th scope="col">Assessment</th>
+      <th scope="col">Weight</th>
     </tr>
   </thead>
   <tbody>
@@ -23,6 +24,7 @@ const visible = assessments.sort((a, b) => a.data.due.getTime() - b.data.due.get
           <td>
             <a href={withBase(`/assessments/${assessment.id}/`)}>{assessment.data.title}</a>
           </td>
+          <td class="num">{assessment.data.weight}%</td>
         </tr>
       ))
     }
@@ -56,5 +58,9 @@ const visible = assessments.sort((a, b) => a.data.due.getTime() - b.data.due.get
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--at-text-secondary);
+  }
+
+  .due-table .num {
+    text-align: right;
   }
 </style>
