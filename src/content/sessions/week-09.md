@@ -3,6 +3,9 @@ title: "Weighing it"
 description: >-
   Critical design review at the field, with the aircraft on the scale in front of you
 week: 9
+tags:
+  - "mass verification"
+  - "build"
 date: 2027-04-19
 teachers:
   - nadia-strout

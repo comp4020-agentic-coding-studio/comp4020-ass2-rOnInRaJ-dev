@@ -3,6 +3,7 @@ import courseGraph from "astro-course-university";
 import universityTheme from "astro-theme-university";
 import { astromotion, deckRemarkPlugins } from "astromotion";
 import { courseMeta } from "./src/course-config.ts";
+import { remarkFigureSlot, remarkRequirementChip } from "./src/markdown-plugins.ts";
 import { courseApiCollections } from "./src/site-config.ts";
 import { gitOrigin, resolveDeployment } from "./scripts/pages-base.ts";
 
@@ -29,7 +30,7 @@ export default defineConfig({
       // plugins (slide breaks, classes, backgrounds, notes, QR codes) are
       // handed to it rather than registered separately. Each one gates on
       // `.deck.mdx`, so ordinary pages are untouched.
-      extraRemarkPlugins: deckRemarkPlugins,
+      extraRemarkPlugins: [...deckRemarkPlugins, remarkFigureSlot, remarkRequirementChip],
     }),
     courseGraph({
       collections: courseApiCollections,

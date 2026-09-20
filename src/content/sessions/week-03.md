@@ -3,6 +3,9 @@ title: "The first review"
 description: >-
   The first formal review: your requirement set, your chosen configuration, and the one you rejected
 week: 3
+tags:
+  - "design review"
+  - "team process"
 date: 2027-03-08
 teachers:
   - glenys-arkwright

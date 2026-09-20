@@ -3,6 +3,9 @@ title: "Lift, drag, and a very small Reynolds number"
 description: >-
   Why an aerofoil that works on an airliner does nothing useful at model scale, and how to size a wing for the mass you have
 week: 4
+tags:
+  - "aerodynamics"
+  - "low Reynolds number"
 date: 2027-03-15
 teachers:
   - halcyon-pree

@@ -3,6 +3,9 @@ title: "The aircraft as a system"
 description: >-
   What a drone is once you stop looking at it as an object: five subsystems, one mass budget, and a set of handovers between them
 week: 1
+tags:
+  - "systems thinking"
+  - "team roles"
 date: 2027-02-22
 teachers:
   - halcyon-pree

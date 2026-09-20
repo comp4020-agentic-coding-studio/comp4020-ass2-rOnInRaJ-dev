@@ -3,6 +3,9 @@ title: "The fly-off"
 description: >-
   The mission, the signature capability, the scoring, and every pack back in the club bin before anybody goes home
 week: 12
+tags:
+  - "fly-off"
+  - "showcase"
 date: 2027-05-10
 teachers:
   - ivo-machin

@@ -3,6 +3,9 @@ title: "What the wreckage tells you"
 description: >-
   A real drone failure taken back to its cause, the fly-off, and the part of the life cycle nobody photographs: disposal
 week: 12
+tags:
+  - "post-mortem"
+  - "disposal"
 date: 2027-05-10
 teachers:
   - halcyon-pree

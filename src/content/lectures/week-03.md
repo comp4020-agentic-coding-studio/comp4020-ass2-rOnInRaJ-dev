@@ -3,6 +3,9 @@ title: "Decomposition, and choosing a configuration"
 description: >-
   Breaking the mission into functions, allocating each to a subsystem, and running the configuration trade that decides what you build
 week: 3
+tags:
+  - "configuration trade"
+  - "systems engineering"
 date: 2027-03-08
 teachers:
   - halcyon-pree

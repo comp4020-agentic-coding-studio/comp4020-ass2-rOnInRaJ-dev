@@ -3,6 +3,9 @@ title: "The timed leg"
 description: >-
   Flight readiness review, then your own aircraft flies a timed cruise leg against the number you predicted
 week: 11
+tags:
+  - "flight test"
+  - "operations"
 date: 2027-05-03
 teachers:
   - glenys-arkwright

@@ -3,6 +3,9 @@ title: "Moving the balance point"
 description: >-
   Three centre-of-gravity positions on a club trainer, and the handling change at each one
 week: 6
+tags:
+  - "balance"
+  - "structures"
 date: 2027-03-29
 teachers:
   - glenys-arkwright

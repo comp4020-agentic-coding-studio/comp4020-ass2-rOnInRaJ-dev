@@ -3,6 +3,9 @@ title: "Proving it without flying it"
 description: >-
   Test readiness: the verification matrix, and the six requirements you can close on the ground before you risk the aircraft
 week: 10
+tags:
+  - "bench verification"
+  - "avionics and control"
 date: 2027-04-26
 teachers:
   - bez-toomath

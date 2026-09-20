@@ -3,6 +3,9 @@ title: "Most failures are interface failures"
 description: >-
   Interface control and failure modes, and the week manufacture starts: the handovers between subsystems are where aircraft are lost
 week: 8
+tags:
+  - "interfaces"
+  - "risk"
 date: 2027-04-12
 teachers:
   - bez-toomath

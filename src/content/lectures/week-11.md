@@ -3,6 +3,9 @@ title: "Predicted against logged"
 description: >-
   Flight testing as an experiment: planning a flight that answers one question, and reading the log afterwards
 week: 11
+tags:
+  - "flight test"
+  - "data logging"
 date: 2027-05-03
 teachers:
   - bez-toomath

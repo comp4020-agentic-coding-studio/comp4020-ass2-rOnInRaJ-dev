@@ -3,6 +3,9 @@ title: "The mission leg"
 description: >-
   Timing a club trainer around the circuit and turning the number into the mission your team commits to
 week: 2
+tags:
+  - "mission profile"
+  - "flight test"
 date: 2027-03-01
 teachers:
   - glenys-arkwright

@@ -3,6 +3,9 @@ title: "Where the centre of gravity has to be"
 description: >-
   Static stability, tail sizing and the first CAD session: making the aircraft want to fly straight without being asked
 week: 6
+tags:
+  - "stability"
+  - "centre of gravity"
 date: 2027-03-29
 teachers:
   - halcyon-pree

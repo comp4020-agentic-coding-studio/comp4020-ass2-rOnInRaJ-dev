@@ -3,6 +3,9 @@ title: "Reading the incident book"
 description: >-
   The club's own record of what has gone wrong at Mount Sludge, mapped onto your aircraft's interfaces
 week: 8
+tags:
+  - "incident review"
+  - "operations"
 date: 2027-04-12
 teachers:
   - nadia-strout

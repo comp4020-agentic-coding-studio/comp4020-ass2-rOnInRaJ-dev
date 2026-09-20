@@ -7,6 +7,7 @@ import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import TeachingTeam from "../../components/TeachingTeam.astro";
 import { formatCourseDate } from "../../lib/dates";
 import { graphCollections, sessionLabels, siteConfig } from "../../site-config";
+import "../../styles/chips.css";
 
 export async function getStaticPaths() {
   const sessions = await getPublishedCollection("sessions");
@@ -22,6 +23,14 @@ const { Content } = await render(session);
   description={session.data.description}
   {...siteConfig}
 >
+  <div class="node-meta">
+    <span class="week-badge">Week {session.data.week}</span>
+    {session.data.tags.length > 0 && (
+      <ul class="node-tags" aria-label="Topics">
+        {session.data.tags.map((tag) => <li>{tag}</li>)}
+      </ul>
+    )}
+  </div>
   <p><strong>{formatCourseDate(session.data.date)}</strong></p>
   <Content />
   <SpecList spec={session.data.spec}>

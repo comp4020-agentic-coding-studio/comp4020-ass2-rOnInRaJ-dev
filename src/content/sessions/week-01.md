@@ -3,6 +3,9 @@ title: "Fly it before you design it"
 description: >-
   Your first flights, on a club trainer, on a buddy box, before you have made a single design decision
 week: 1
+tags:
+  - "flight training"
+  - "buddy box"
 date: 2027-02-22
 teachers:
   - glenys-arkwright

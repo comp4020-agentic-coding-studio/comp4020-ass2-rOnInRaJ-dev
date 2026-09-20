@@ -3,6 +3,9 @@ title: "Range and failsafe"
 description: >-
   Test readiness review, then the range check and a deliberate link-loss test on your own airframe
 week: 10
+tags:
+  - "failsafe"
+  - "radio range"
 date: 2027-04-26
 teachers:
   - glenys-arkwright

@@ -3,6 +3,9 @@ title: "The glide test"
 description: >-
   Measuring a real lift-to-drag ratio off a club trainer, and comparing it with the one you calculated
 week: 4
+tags:
+  - "glide test"
+  - "aero"
 date: 2027-03-15
 teachers:
   - nadia-strout

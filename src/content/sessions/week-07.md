@@ -3,6 +3,9 @@ title: "Loading the wing"
 description: >-
   A spare club wing goes on the load rig, and the beam calculation you did meets the deflection you measure
 week: 7
+tags:
+  - "load testing"
+  - "structures"
 date: 2027-04-05
 teachers:
   - nadia-strout

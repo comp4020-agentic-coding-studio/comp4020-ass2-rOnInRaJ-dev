@@ -3,6 +3,9 @@ title: "What the aircraft is for"
 description: >-
   Turning a vague mission into numbered requirements that can actually fail, and opening the mass ledger
 week: 2
+tags:
+  - "requirements"
+  - "mission definition"
 date: 2027-03-01
 teachers:
   - halcyon-pree

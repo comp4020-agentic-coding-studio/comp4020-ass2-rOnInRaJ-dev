@@ -3,6 +3,9 @@ title: "The spar carries everything"
 description: >-
   Load cases, spar sizing and materials: working out what the wing has to survive and what it costs in grams to survive it
 week: 7
+tags:
+  - "structures"
+  - "spar design"
 date: 2027-04-05
 teachers:
   - bez-toomath

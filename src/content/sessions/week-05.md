@@ -3,6 +3,10 @@ title: "Preliminary design review, and the thrust stand"
 description: >-
   The power system gets baselined, and your motor and propeller go on the stand for real numbers
 week: 5
+tags:
+  - "PDR"
+  - "thrust stand"
+  - "electronics"
 date: 2027-03-22
 teachers:
   - nadia-strout
