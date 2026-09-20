@@ -14,6 +14,14 @@ related:
   - lectures/week-01
 ---
 
+## In the studio
+
+Your team is four people, fixed from week 2, with a role assigned to each: chief engineer, aero and structures, avionics and electrical, test lead. This week you nominate the roles. A role owns two of the five subsystems—Aero, Structures, Propulsion & Power, Avionics & Control, Operations. The chief engineer owns none; the chief engineer coordinates the handovers between them.
+
+The studio has 4 workshop-and-lab hours this week. You spend them getting your repository issued, meeting the lab technician and learning the workshop equipment, and nominating who owns which subsystem. No building happens yet. You will visit the field to fly the objective below. Read the Field days page to book your own slot and understand the go/no-go and weather fallback rules.
+
+Write down what you predict before the flight: how many seconds you think you will hold level flight on the buddy box. That number goes in the logbook before you fly, and the debrief compares the prediction to what happened. Every week after this one has a quiz grading that habit.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for

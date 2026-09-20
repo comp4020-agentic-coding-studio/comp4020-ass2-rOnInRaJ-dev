@@ -16,6 +16,12 @@ related:
 
 This week works on `R-04`, `R-06`, `R-07`.
 
+## In the studio
+
+Wire your power distribution: pack to regulator to flight controller to all five servos — 90 g total. Build the bench rig: pack through the regulator to the flight controller, flight controller wired to all five servos, current meter in series with the battery. Measure the static resistance of the servo bus when all five move together; you will need it for the lab prediction.
+
+Predict the peak current draw with all five servos at full rate, then calculate the voltage sag that current will produce across your regulator's input impedance. Power the bench rig and command all five servos to their limits while logging pack voltage. This is where you watch for brownout: when the regulator sags below its dropout threshold and the flight controller resets — that is failure story 5, and catching it on the bench prevents it at altitude. The avionics draw is steady at 8 W, but the transient peak under full load is higher, and the 60 W cruise average never shows that peak. `R-06` (usable energy, 26 Wh) gets its first bench measurement from what the pack delivers under load. `R-04` gets preliminary evidence in power and current; the field's thrust stand provides the measurement. Week 6 sizes the tail and needs your aircraft's measured mass.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for

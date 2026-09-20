@@ -16,6 +16,12 @@ related:
 
 This week works on `R-12`, `R-13`.
 
+## In the studio
+
+The first two hours are workshop time. Each team writes its one-page interface control document, naming what every subsystem hands its neighbours: the battery mass in grams, the power draw in watts, the voltage, the connectors and wiring that stay fixed. Write it against your own aircraft's actual handovers, not a template. The aero subsystem hands the structures subsystem a wing mass and a load case. The power subsystem hands the propulsion subsystem a voltage and a peak current it must survive. The flight controller hands the radio subsystem a data signal and the servos signal pulses and current draw. Your document gets everything.
+
+The second two hours are in the lab. Your team writes a bench method for `R-13`: how you will test that a control surface deflection repeats to within one degree after fifty cycles. A protractor and a cycle counter are your tools. Here is where the failure story matters: a reversed aileron servo can bench-test perfectly with the wing off, then fly backwards on the take-off roll because the bench did not run it in the flying configuration. Test the servo-to-surface interface in the same configuration the aircraft actually flies in, not a convenient one. If your servo bolts to a wing that moves, rig the wing. The incident-book walk below maps three recorded club failures onto the interfaces you have just written, so that document must exist and be signed before you book the field slot.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for

@@ -16,6 +16,12 @@ related:
 
 This week works on `R-01`, `R-02`, `R-07`, `R-08`.
 
+## In the studio
+
+The review pack that you present in the first studio is three documents: your numbered requirement set, your ledger at version one dated and signed, and the configuration trade showing what you chose and what you rejected. The workshop hours assemble the pack. You list your requirements against the course requirements `R-01`, `R-02`, `R-07` and `R-08`. Every estimate in the ledger goes in with its method: how you arrived at it, what number you drew it from, why that number was the right one to use. Balsa from a supplier's weight chart; spar depth from a bending-stress calculation; battery capacity from the pack's datasheet. If you do not know, you state the assumption. The trade study documents the configuration you chose — fixed-wing or quad — and shows the one you rejected, both scored against your weighted criteria. Nothing is left unsourced or unexplained.
+
+The lab hours make the ledger real. You and the lab technician weigh samples of balsa, carbon tube and composite fabric. A line that read “balsa spar, estimated” becomes a length of balsa on the scale, with the reading written next to it. Structures goes from estimated to sourced. The ledger baseline is locked at version one, dated at the end of week 3. After this, a change to mass is not a discovery — it is a decision, and you name the reason.
+
 ## At the field
 
 Your team books its own slot for this week — see [Field days](/field-days/) for
